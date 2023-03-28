@@ -1,0 +1,27 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif ;
+}
+a{
+  text-decoration: none;
+
+}
+li{
+  list-style: none;
+}
+button{
+  border: none;
+  background-color: blueviolet;
+  padding: 8px 30px;
+  font-size: 16px;
+  color: White;
+  border-radius: 20px;
+
+
+}
+button:hover{
+  background:linear-gradient(to left top ,blue,red);
+  font-size: 16px;
+}

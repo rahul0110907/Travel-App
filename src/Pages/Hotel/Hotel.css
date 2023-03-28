@@ -1,0 +1,51 @@
+.hotel{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.checkIn{
+    margin: 20px;
+}
+.collection{
+    margin-top: 50px;
+    padding-right: 30px;
+ 
+}
+.collection h2{
+    border :1px solid black;
+    border-radius: 16px;
+    padding: 15px 30px;
+}
+.hotel-list{
+    display: flex;
+    flex-direction: column;
+
+}
+.hotel-list p{
+    margin-left: 0px;
+    opacity: 0.7;
+}
+.fivestar{
+display: flex;
+gap:70px
+}
+.collection h2{
+    border :1px solid black;
+    border-radius: 16px;
+    padding: 15px 30px;
+}
+.HillHotel-list img{
+    height: 200px;
+    width: 250px;
+}
+.HillHotel-list p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.HillHotel{
+    display: flex;
+    gap: 50px;
+}
+.HoneyMoonHotel{
+    display: flex;
+    gap:50px
+}

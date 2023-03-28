@@ -1,0 +1,29 @@
+.productCard{
+    width:330px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 14px;
+    
+}
+img{
+    width: 100%;
+
+}
+.palace{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.besttime{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.description{
+    margin-top: 10px;
+}
+.readmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:170px;
+}

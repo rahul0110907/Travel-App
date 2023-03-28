@@ -1,0 +1,74 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 100px 200px;
+}
+.about h1{
+    opacity: 0.7;
+}
+.about span{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.about p{
+   font-size: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 70px;
+   margin-right: 50px;
+   line-height: 30px;
+   opacity: 0.7;
+}
+.mobile{
+    display: flex;
+    margin: 50px;
+    width: 100%;
+   
+
+}
+.aboutImage{
+    width: 30%;
+   
+}
+.atext{
+    margin-left: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.atext >h3{
+    margin:0px;
+    opacity: 0.6;
+}
+
+.focus{
+    display: flex;
+    margin: 50px;
+    width: 100%;
+   
+
+}
+.focusImage{
+    width: 30%;
+   
+}
+.ftext{
+    margin-left: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.ftext >h3{
+    margin:0px;
+    opacity: 0.6;
+}

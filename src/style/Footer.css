@@ -1,0 +1,137 @@
+.footermain{
+    background-image: url(../assestes/footer1.jpg);
+}
+.footer{
+    display: flex;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 10px 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.first>h1{
+    margin: 0;
+    background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: none;
+}
+.first>p{
+    margin-top: 10px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.second>h3{
+    margin-left: 35px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.third>h3{
+    margin-left: 35px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.fourth{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+.fourth>h3{
+    margin-left: 35px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.second>ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.second>ul>li{
+    margin: 10px;
+}
+.third>ul>li{
+    margin: 10px;
+}
+.fourth>ul>li{
+    margin: 10px;
+}
+.third>ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.fourth>ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.copyright{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.follow{
+display: flex;
+flex-direction: row;
+margin-left: 30px;
+align-items: center;
+
+}
+.follow>span{
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+.follow>ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.follow>ul>a{
+   font-size: 24px;
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   border-radius: 50px;
+}
+.follow>ul>a:hover{
+    background-color: red;
+    font-size: 30px;
+}

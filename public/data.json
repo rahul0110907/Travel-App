@@ -1,0 +1,139 @@
+
+[
+{
+    
+    
+      "id":"1",
+        "Name":"Udaipur, Rajasthan-  City of Lakes",
+        "palace":"Rajasthan ,India",
+        "Thumbnail":"https://www.worldatlas.com/r/w1024-q80/upload/f8/a7/d8/shutterstock-744837868.jpg",
+          "description":"Udaipur, also known as the City of Lakes, is the crown jewel of the state of Rajasthan. It is surrounded by the beautiful Aravalli Hills in all directions, making this city as lovely as it is. This 'Venice of the East' has an abundance of natural beauty, mesmerising temples and breathtaking architecture which makes it a must-visit destination in India.  A boat ride through the serene waters of Lake Pichola will be enough to prove to you why Udaipur is the pride of Rajasthan.",
+        "BestTime": "October to March", 
+        "Rating":"4.5/5",
+        "Price":"10000"
+
+},
+
+{
+    
+    "id":"2",
+    "Name":"Jaipur, Rajasthan-  Pink city",
+    "palace":"Rajasthan ,India",
+    "Thumbnail":"https://upload.wikimedia.org/wikipedia/commons/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+      "description":"The moment you set foot in Jaipur, you will feel like everything has come straight out of the pages of some epic novel. Majestic buildings, tales of heroic battles, resplendent forts and palaces, and multi-faceted characters ? Rajasthan is one of the most colourful and flashiest states in all of India, and its capital Jaipur lives up to the same reputation as well. Jaipur is a vibrant amalgamation of the old and the new ? highly urbanized pockets and shopping areas have casually sprung up beside gleaming forts and palaces. Jaipur has long been one of the shiniest cultural jewels in the history of the Indian subcontinent, and the royal corridors of the famously named 'Pink City' offer up a plethora of adventures and activities that make for a memorable holiday experience.",
+    "BestTime": "October to March",
+    "Rating":"4.5/5",
+    "Price":"7000"
+
+
+},
+{
+    
+    "id":"3",
+    "Name":"Andaman and Nicobar Islands",
+    "palace":"Andaman and Nicobar,India",
+    "Thumbnail":"https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/09/23113313/andaman-nicobar.jpg",
+    "description":"Lagoons of crystal clear water and scenic beaches topped with a little bit of history make Andaman and Nicobar one of the most perfect choices for an enjoyable, laid-back holiday where you can go on long treks, laze around in the backwaters of the island, or if you're feeling a little more adventurous, even go for a bit of deep sea diving. From the pristine, untouched beaches of Neil and Havelock Islands to the bustling town of Port Blair, the Andamans have something to offer to every tourist.",
+    "BestTime": " October to Jun",
+   
+    "Rating":"4/5",
+    "Price":"20000"
+
+
+},
+{
+    
+    "id":"4",
+    "Name":"Varanasi,Utter Pradesh -The Spiritual Capitial of india",
+    "palace":"Utter Pradesh,India",
+    "Thumbnail":"https://www.planetware.com/wpimages/2020/02/india-varanasi-best-places-to-visit-ganges-river.jpg",
+    "description":"A city as old as time itself. A city that has stayed in place and watched as the world has turned and the tides have changed. A city that has stood the test of time for thousands of years. In the words of Mark Twain, Older than history, older than tradition, older even than legend, And looks twice as old as all of them put together. Varanasi, the city that is more than just the spiritual capital of India. The city which can be aptly described as a melting pot where both life and death come together. The city that you only need to visit once for it to stay with you forever.",
+    "BestTime": "  October to March",
+   
+    "Rating":"4.5/5",
+    "Price":"10000"
+
+
+},
+{
+    
+    "id":"5",
+    "Name":"Goa -Beaches,Sunsets and Crazy Nights",
+    "palace":"Goa,India",
+    "Thumbnail":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/09/27/871143-goa-tourism-092719.jpg",
+    "description":"Widely considered to be the best place to visit in India among youths, Goa is the epitome of tourism in India with one of the best beaches, food and nightlife. It is getting popular among foreigners as well. When you think of Goa, you think of sandy beaches, amazing parties, beautiful little villages, delicious food, and a magical holiday experience. Yes, Goa is rightfully known as the most popular tourist destination on the West Coast of India, and not just because of its scenic beaches, but also because of its tropical climate and its rich Portuguese heritage, which you can still find lingering on in some parts of the town. Nestled in the Konkan Coast Belt, Goa has a coastline stretching for over a 100 kilometres and attracts millions of visitors both from within and outside the country all year round.",
+    "BestTime": "October to March",
+  
+    "Rating":"4.5/5",
+    "Price":"30000"
+
+
+},
+{
+    
+    "id":"6",
+    "Name":"TajMahal -The Symbol of Love ",
+    "palace":"Utter Pradesh,India",
+    "Thumbnail":"https://www.travelandleisure.com/thmb/wdUcyBQyQ0wUVs4wLahp0iWgZhc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/taj-mahal-agra-india-TAJ0217-9eab8f20d11d4391901867ed1ce222b8.jpg",
+    "description":"Home to one of the 7 wonders of the world, the Taj Mahal, Agra is a sneak peek into the architectural history with other structures such as Agra Fort and Fatehpur Sikri and hence makes for a must visit for anyone living in or visiting India.",
+    "BestTime": "October to March",
+  
+    "Rating":"4.8/5",
+    "Price":"15000"
+
+
+},
+{
+    
+    "id":"7",
+    "Name":"Manali ,Lover's Paradise ,India's Honeymoon Capital ",
+    "palace":"Himachal Pradesh,India",
+    "Thumbnail":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/0f/94/c2/paragliding-in-solang.jpg?w=600&h=400&s=1",
+    "description":"Nestled in between the snow-capped slopes of the Pir Panjal and the Dhauladhar ranges, Manali is one of the most popular hill stations in the country. With jaw-dropping views, lush green forests, sprawling meadows carpeted with flowers, gushing blue streams, a perpetual fairy-tale like mist lingering in the air, and a persistent fragrance of pines and freshness -  Manali has been blessed with extraordinary scenic beauty. From museums to temples, from quaint little hippie villages to bustling upscale streets, river adventures to trekking trails, Manali has ever a reason to be the tourist magnet it is, all year round.",
+    "BestTime": "October to June",
+    "Rating":"4.0/5",
+    "Price":"30000"
+
+
+},
+{
+    
+    "id":"8",
+    "Name":"Jaisalmer -The Golden City ",
+    "palace":"Rajasthan,India",
+    "Thumbnail":"https://assets.traveltriangle.com/blog/wp-content/uploads/2016/09/Untitled-design1.jpg",
+    "description":"Situated close to the Pakistan Border, Jaisalmer is a major tourist spot located in the northwestern state of Rajasthan in India. It is called the 'golden city' due to its bounteous golden dunes flowing in the Thar Desert. Jaisalmer is adorned with lakes, ornate Jain temples, havelis and castles clad in golden yellowish sandstone. Climb on to the camel saddle and make your way through this desert or camp under the night sky in this golden land for an unforgettable experience.",
+    "BestTime": "October to March",
+    "Rating":"4.5/5",
+    "Price":"20000"
+
+
+},
+{
+    
+    "id":"9",
+    "Name":"Ladakh -India's own MoonLand ",
+    "palace":"Leh Ladakh ,India",
+    "Thumbnail":"https://static.toiimg.com/photo/87726041.cms",
+    "description":"A land like no other with superabundance of attractions to visit and phantasmagoric and fabulous landscapes, amazing people and culture, Ladakh is truly a heaven on Earth. Considered to be one of the top places to visit in India by Indians and foreigners alike, Ladakh is a place not to be missed at any cost.",
+    "BestTime": "Jun to Sep",
+   
+    "Rating":"4.5/5",
+    "Price":"25000"
+
+
+},
+{
+    
+    "id":"10",
+    "Name":"Mumbai -The city of Dreams ",
+    "palace":"Maharashtra,India",
+    "Thumbnail":"https://content.r9cdn.net/rimg/dimg/50/92/cd4e2dcb-city-31288-16561d77fbf.jpg?crop=true&width=1366&height=768&xhint=3359&yhint=1924",
+    "description":"Mumbai, the capital city of the Indian state of Maharashtra, is a spectacular paradox of chaos and hope, glamour and squalor, modernity and tradition. Famously known as the City of Dreams, Mumbai – formerly known as Bombay - Mumbai is a beautifully blended melting pot of cultures and lifestyles.  The city soaks in everything into its fabric, making it its very own. From upcoming actors struggling to make it big on the silver screen; from Bolly superstars to big industrialists to tribes of fisherman and slum dwellers, Mumbai is a city that proudly boasts of stories from different walks of human survival.",
+    "BestTime": "October to February",
+    "Rating":"4.0/5",
+    "Price":"30000"
+
+
+}
+]

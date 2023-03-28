@@ -1,0 +1,41 @@
+.package{
+    margin-left: 10px;
+}
+.package-head{
+    background: url(../../assestes/package1.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.head-text{
+    padding-left: 150px;
+    padding-top: 120px;
+}
+.head-text h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom:  0px;
+}
+.head-text p{
+    font-size: 24px;
+    color: white;
+    margin-top: 0;
+}
+.head-text input{
+    padding: 15px 400px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+.package-product{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.package-product h2{
+    opacity: 0.7;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
