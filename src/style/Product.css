@@ -2,42 +2,47 @@
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
+    
  
 }
 .product-text{
-    border: 1px solid black;
+   
     padding: 10px 40px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
-    opacity: 0.6;
+    
 }
 .ProductDetails{
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     margin-top: 30px;
-
-    
+   
 }
 .pagination{
-    
     display: flex;
     justify-content: center;
-    padding: 10px;
- margin: 0 350px;
     align-items: center;
-    
+    margin-top: 30px;
+    color:black
 }
 .pagination span{
-    padding: 10px;
+border: 1px solid black;
+padding: 10px 10px;
+cursor: pointer;
+}
+.pagination button{
+    border-radius: 0px;
+    padding: 10px 20px;
+    background-color: white;
     cursor: pointer;
     border: 1px solid black;
-
+    color: black;
+    
 }
-.pagination span:hover{
-    background-color: red;
-}
-.Pagination_selected{
-    background-color: lightgray;
+.active{
+    background-color: green;
+    color: white;
+    
 }

@@ -11,7 +11,7 @@
  
 }
 .collection h2{
-    border :1px solid black;
+  
     border-radius: 16px;
     padding: 15px 30px;
 }
@@ -29,7 +29,7 @@ display: flex;
 gap:70px
 }
 .collection h2{
-    border :1px solid black;
+  
     border-radius: 16px;
     padding: 15px 30px;
 }

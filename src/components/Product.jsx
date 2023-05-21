@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react'
 import '../style/Product.css'
 import ProductCard from './ProductCard';
 
-const Product = () => {
 
-    const [Product,setProduct]=useState([]);
-    const[Page,setPage]=useState(1);
+const Product = () => {
+  const [product,setProduct]=useState([]);
+  
+  const[currentPage,setCurrentPage]=useState(1);
   const fetchData = async()=>{
       const res = await fetch('data.json')
       const result =await res.json();
@@ -15,9 +16,32 @@ const Product = () => {
   useEffect(()=>{
     fetchData();
   },[])
-  const PageHandler =(selectedpage)=>{
-    setPage(selectedpage);
+  console.log(product);
+  const productPerPage = 5;
+  
+  const numOfPages = Math.ceil(product?.length/5);
+
+    
+  const pages =[...Array(numOfPages+1).keys()].slice(1);
+
+  const indexofLastIndex = currentPage+productPerPage;
+  const indexofFirstIndex =indexofLastIndex-productPerPage;
+
+  const visibleProduct = product.slice(indexofFirstIndex,indexofLastIndex);
+
+ 
+
+  const prevPageHandler =()=>{
+      if(currentPage!==1){
+          setCurrentPage(currentPage-1);
+      }
   }
+  const nextPageHandler=()=>{
+      if(currentPage!==numOfPages){
+          setCurrentPage(currentPage+1);
+      }
+  }
+  
   return (
     <div className='product'>
         <div className='product-text'>
@@ -25,7 +49,7 @@ const Product = () => {
         </div>
         <div className='ProductDetails'>
         {
-            Product?.slice(Page*5-5,Page*5).map((item)=>{
+           visibleProduct?.map((item)=>{
                 return(
                    <div>
                        <ProductCard  Name = {item.Name} palace={item.palace} Image={item.Thumbnail} key={item.id} des ={item.description} besttime ={item.BestTime}/>
@@ -34,26 +58,20 @@ const Product = () => {
             })
         }
         </div>
-        {
-  
-  Product.length>0 &&<div className='pagination' style={{height:'50px'}}>
-   <span onClick={()=>PageHandler(Page-1)}>Prev</span>
-   {
-     [...Array(Product.length/5)].map((_,i)=>{
-       return(
-         <span className={Page===i+1?"Pagination_selected":""} onClick={()=>PageHandler(i+1)} key={i}>{i+1}</span>
-       )
-     })
-   }
-
-   <span onClick={()=>PageHandler(Page+1)} >Next</span>
- </div>
-
-}
-
- 
-     
-      
+        <div className='pagination'>
+        <button disabled={currentPage===1} onClick={prevPageHandler}>Prev</button>
+         {
+        pages?.map((item,i)=>{
+                return(
+           
+                    <span key={i} onClick={()=>setCurrentPage(item)} 
+                   className={`${currentPage===item?'active':''}`}>{item}</span>
+            
+                )
+            })
+        } 
+            <button disabled={currentPage===numOfPages} onClick={nextPageHandler}>Next</button> 
+            </div>  
     </div>
   )
 }
