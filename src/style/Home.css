@@ -1,10 +1,11 @@
-.Home{
+.banner{
     background-image: url(../assestes/Travel.avif);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
+    background-size:cover;
+    background-position:center;
+    height: 90vh;
     width: 100%;
+ 
 }
 .text{
     color: white;
@@ -24,57 +25,28 @@
     font-weight: bolder;
     
 }
-.ticket{
-    margin-left: 200px;
-    margin-top: 50px;
-    margin-right: 100px;
-    padding: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: white;
-    border-radius: 20px;
-
+@media screen and (max-width: 768px){
+    .banner{
+        height: 50vh;
+        width: 100%;
+    }
+.text{
+    padding-left: 50px;
+    padding-top: 100px;
+   
 }
-.searchDestination{
-    display: flex;
-    flex-direction: column;
-}
-.search{
-    position: relative;
-    margin-top: 5px;
-}
-.search>input{
-    padding: 5px 50px;
-    border-radius: 30px;
-    background-color: lightgray;
-}
-.icon{
-    position: absolute;
-    right: 8px;
-    top: 5px;
-
-}
-.selectdate{
-    display: flex;
-    flex-direction: column;
-}
-.selectdate>input{
-    padding: 5px 50px;
-    border-radius: 30px;
-    background-color: lightgray;
-}
-.max-price{
-    display: flex;
-    flex-direction: column;
-
-}
-.max-price>input{
-    background-color: lightgray;
-}
-.setprice{
-
-    display: flex;
-    justify-content: space-between;
+.text>span{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: blue;
+    padding-left: 4px;
     
+}
+.text>div{
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
 }

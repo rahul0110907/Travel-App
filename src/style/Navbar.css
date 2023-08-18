@@ -1,3 +1,17 @@
+.navbar{
+    top: 0;
+    padding: 0 20px;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
 .logo{
     font-size: 24px;
     font-weight: bold;
@@ -8,40 +22,73 @@
 -webkit-background-clip: text;
 background-clip: none;
 }
-.navbar{
+.menu-icon{
+    display: none;
+}
+.nav-elements{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
-    z-index: 99;
-    top: 0;
-    background-color: white;
-    position: sticky;
-    width: 100%;
-   
-     
-   
-
+    gap: 30px;
 }
-.book{
-    margin-right: 20px;
-}
-.navList{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.nav-elements li{
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 1px;
-
-
 }
-a:hover{
-    color: crimson;
+.nav-elements li:hover{
+    color: red;
+}
+
+
+.book{
+    display: block;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .navbar{
+        width: 100%;
+    }
+    .nav-elements{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       position: absolute;
+        width: 100%;
+       
+        top: 15px;
+        left: 0;
+        color: gray;
+        background-color:black
+
+       }
+  
+    .mobile-menu a{
+        color: white;
+    }
+   .mobile-menu li{
+    padding: 20px 16px;
+    cursor: pointer;
+    text-transform: capitalize;
+
+    margin-right: 90px;
+
+    }
+    .mobile-menu li:hover{
+        color: red;
+    }
+    .menu-icon{
+        display: block;
+        right: 50px;
+        position: absolute;
+    }
+    .book{
+        display: none;
+    }
     
-
-}
-a:active{
-    color: green;
-    text-decoration: underline;
 }

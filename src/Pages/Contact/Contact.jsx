@@ -1,7 +1,13 @@
 import React from 'react'
 import './Contact.css'
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
+const submitHandler = (e)=>{
+ e.preventDefault();
+}
+  const notify = () =>
+  toast("Thank you for Connecting with us. we will get back to you");
   return (
     <div className='contact'>
       <div className='contact-head'>
@@ -25,22 +31,34 @@ Be our travel writer and explore the world through words.<br/>
 Fill out the form below if you are interested in travel writing opportunities at travel.Net.
       </p>
 
-      <div className='form'>
-
-        <form>
+      <div >
+          <form className='form' onSubmit={submitHandler}>
+            <h2>Contact Us</h2>
           <div className='input'>
          <span>Name:</span>
-          <input type='text' placeholder='Name'  style={{marginLeft:'130px',padding:'10px 50px'}}/>
+          <input type='text' placeholder='Enter your Name' className='inputfield'/>
           </div>
           <div className='input'>
           <span>Email:</span>
-          <input type='email' placeholder='Email ID'  style={{marginLeft:'130px',padding:'10px 50px'}}/>
+          <input type='email' placeholder='Enter your Email ID' className='inputfield' />
           </div>
           <div className='input'>
-          <span>Writing sample:</span>
-          <textarea  maxLength={5000} placeholder='Writing Sample' style={{marginLeft:'40px',height:'200px',width:'300px'}}/>
+          <span>Message:</span>
+          <textarea  maxLength={5000} placeholder='Message For us' className='textarea' />
           </div>
-          <button style={{marginLeft:'250px' ,marginTop:'30px' ,marginBottom:'30px'}}>Submit</button>
+          <button  onClick={notify}>Submit</button>
+          <ToastContainer
+            position="bottom-left"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="dark"
+          />
         </form>
       
       </div>

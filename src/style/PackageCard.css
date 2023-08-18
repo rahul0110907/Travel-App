@@ -6,15 +6,25 @@ gap: 30px;
     display: flex;
     flex-direction: column;
 }
-.package-list a{
+.package-list img{
+    height:100px;
+    width:200px;
+border-radius: 10px;
+}
+.package-list p{
     margin-top: 10px;
     font-size: 18px;
+    color: blue;
 }
-.package-list a:active{
+.package-list p:hover{
+    color: red;
+    text-decoration: underline;
+}
+.package-list p:active{
     color: green;
     text-decoration: underline;
 }
-.package-list p{
+.package-list span{
    margin-top: 5px; 
    opacity: 0.5;
 }
@@ -48,4 +58,115 @@ gap: 30px;
 }
 .theme-list p >span{
     color: red;
+}
+.packagecardtheme{
+    display: flex;
+    gap: 30px; 
+}
+
+
+
+@media screen and ( max-width: 768px){
+    .packagecard{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 20px;
+    }
+    .package-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .package-list img{
+        height: 100px;
+        width: 180px;
+    }
+    .package-list p{
+        margin-top: 10px;
+        font-size: 18px;
+        color: blue;
+    }
+    .package-list span{
+        margin-top: 5px; 
+        opacity: 0.5;
+        font-size: 16px;
+     }
+     .theme-list{
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 10px;
+       
+    }
+    .theme-list h3{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .theme-list p{
+        margin-left: 10px;
+        margin-top: 0px; 
+        opacity: 0.7;
+    }
+    .theme-list p >span{
+        color: red;
+    }
+    .packagecardtheme{
+        padding: 0 30px 0 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 30px; 
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .packagecard{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+    }
+    .package-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .name{
+        padding: 10px 10px;
+    }
+    .package-list img{
+        height: 100px;
+        width: 140px;
+    }
+    .package-list p{
+        margin-top: 10px;
+        font-size: 16px;
+        color: blue;
+    }
+    .package-list span{
+        margin-top: 5px; 
+        opacity: 0.5;
+        font-size: 14px;
+     }
+     .theme-list{
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 10px;
+       
+    }
+    .theme-list h3{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .theme-list p{
+        margin-left: 10px;
+        margin-top: 0px; 
+        opacity: 0.7;
+    }
+    .theme-list p >span{
+        color: red;
+    }
+    .packagecardtheme{
+        display: flex;
+        flex-direction: column;
+        gap: 30px; 
+    }
 }

@@ -1,6 +1,87 @@
-.bookbook{
+.bookbook button{
+   margin-top: 50px;
+   padding: 10px 100px;
+   
+}
+.bookticket{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.ticket{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.searchDestination{
     display: flex;
     justify-content: center;
     align-items: center;
    
+}
+.searchDestination span{
+    font-size: large;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.search{
+    display: flex;
+}
+.search input{
+    padding: 10px 100px;
+    margin-left: 10px;
+}
+.search span{
+    margin-left: -30px;
+    margin-top: 5px;
+}
+.selectdate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selectdate span{
+    font-size: large;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.selectdate input{
+    padding: 10px 100px;
+    margin-left: 77px;
+}
+.max-price{
+    display: flex;
+    flex-direction: column;
+
+}
+.setprice{
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.setprice span{
+    font-size: large;
+    font-weight: 600;
+    opacity: 0.9;  
+}
+.range{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.range input{
+padding: 10px 0;
+}
+.range{
+    font-size: large;
+    font-weight: 600;
+    opacity: 0.9;  
 }

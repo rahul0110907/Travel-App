@@ -12,7 +12,7 @@ const About = () => {
         India's favourite trip planning website. Coming soon to the entire
         world.
       </p>
-      <img src={image} alt="" style={{ height: "300px" }}></img>
+      <img src={image} alt="" ></img>
       <span>Travel planning has always been messy and difficult</span>
       <p>
         Planning every single trip needs answers to a number of questions.
@@ -23,7 +23,7 @@ const About = () => {
       </p>
       <div className="mobile">
         <div className="aboutImage">
-          <img src={image2} alt="" style={{ height: "250px", width: "100%" }} />
+          <img src={image2} alt=""  />
         </div>
         <div className="atext">
           <h3>Exhaustive, Reliable Content</h3>

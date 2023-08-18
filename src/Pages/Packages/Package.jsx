@@ -7,9 +7,10 @@ const Package = () => {
     <div className='package'>
       <div className='package-head'>
         <div className='head-text'>
+       
       <h1>Holiday Tour Packages</h1>
       <p>Get the Best Travel & Tour Package Deals via 3000+ Trusted Agents</p>
-      <input type='text' placeholder='Search Packages in Manali '/>
+     
       </div>
       </div>
       <div className='package-product'>

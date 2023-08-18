@@ -1,6 +1,6 @@
 .App {
   margin: 0;
-  padding: 0;
+  padding:0;
   box-sizing: border-box;
   font-family: sans-serif ;
 }
@@ -18,10 +18,23 @@ button{
   font-size: 16px;
   color: White;
   border-radius: 20px;
-
-
+}
+@media screen and (max-width: 768px){
+  button{
+    border: none;
+    background-color: blueviolet;
+    padding: 5px 20px;
+    font-size: 14px;
+    color: White;
+    border-radius: 10px;
+  }
+  button:hover{
+    background:linear-gradient(to left top ,blue,red);
+   
+  }
+  
 }
 button:hover{
   background:linear-gradient(to left top ,blue,red);
-  font-size: 16px;
+ 
 }

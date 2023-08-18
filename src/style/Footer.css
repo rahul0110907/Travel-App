@@ -3,8 +3,7 @@
 }
 .footer{
     display: flex;
-    width: 100%;
-    margin-left: 30px;
+   padding-left: 30px;
     margin-top: 30px;
 }
 .first{
@@ -134,4 +133,96 @@ align-items: center;
 .follow>ul>a:hover{
     background-color: red;
     
+}
+@media screen and (max-width: 768px){
+.footermain{
+    max-width: 100%;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.first{
+   display: none;
+}
+.second{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column;
+margin: 0;
+padding: 0;
+
+}
+.second h3{
+    height: 30px;
+    padding-left: 20px;
+    margin-left: 0;
+    font-size: 14px;
+
+}
+.second ul{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0;
+
+}
+.second ul li{
+    margin: 0;
+    padding: 5px 0;
+}
+.third h3{
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 0;
+    font-size: 14px;
+}
+.third ul{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0;
+
+}
+.third ul li{
+    margin: 0;
+    padding: 5px 0;
+}
+.fourth h3{
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 0;
+    font-size: 14px;
+}
+.fourth ul{
+   
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0;
+}
+.fourth ul li{
+    margin: 0;
+    padding: 5px 0;
+}
+.follow{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0px 20px;
+    align-items: center;
+}
+.follow span{
+    display: none;
+}
+.follow ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 20px;
+}
 }

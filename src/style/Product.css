@@ -29,12 +29,12 @@
 }
 .pagination span{
 border: 1px solid black;
-padding: 10px 10px;
+padding: 9px 10px;
 cursor: pointer;
 }
 .pagination button{
     border-radius: 0px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: white;
     cursor: pointer;
     border: 1px solid black;
@@ -45,4 +45,52 @@ cursor: pointer;
     background-color: green;
     color: white;
     
+}
+@media screen and (max-width: 768px){
+  
+    .product{
+        margin: 0;
+        padding: 10px 10px;
+    }
+    .product-text{
+        padding: 10px 10px;
+        color: green;
+        font-size: 18px;
+        line-height: 10px;
+        text-transform: capitalize;
+        text-decoration: underline;
+        
+    }
+
+    .ProductDetails{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 500px){
+    
+    .product{
+        margin: 0;
+        padding: 10px 10px;
+    }
+    .product-text{
+        padding: 10px 10px;
+        color: green;
+        font-size: 18px;
+        line-height: 10px;
+        text-transform: capitalize;
+        text-decoration: underline;
+        
+    }
+
+    .ProductDetails{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
 }

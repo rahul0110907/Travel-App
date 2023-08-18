@@ -22,13 +22,7 @@
     color: white;
     margin-top: 0;
 }
-.head-text input{
-    padding: 15px 400px;
-    font-size: 20px;
-    border-radius: 20px;
-    background-color: white;
-    
-}
+
 .package-product{
     margin-left: 50px;
     margin-right: 50px;
@@ -38,4 +32,88 @@
  
     padding: 10px 30px;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 750px){
+    .package{
+        margin: 0;
+        width: 100%;
+    }
+    .package-head{
+        background: url(../../assestes/package1.jpg);
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .head-text{
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+    .head-text h1{
+        color: red;
+        font-size: 24px;
+        margin-bottom:  0px;
+    }
+    .head-text p{
+        font-size: 20px;
+        color:white ;
+        margin-top: 10px;
+    }
+   
+    .package-product{
+        margin: 0;
+        padding: 20px 20px;
+    }
+    .package-product h2{
+        opacity: 0.7;
+       font-size: 16px;
+       margin: 0;
+       padding: 20px 0;
+       color: blue;
+       text-decoration: underline;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .package{
+        margin: 0;
+        width: 100%;
+    }
+    .package-head{
+        background: url(../../assestes/package1.jpg);
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .head-text{
+        padding-left: 20px;
+        padding-top: 120px;
+    }
+    .head-text h1{
+        color: red;
+        font-size: 24px;
+        margin-bottom:  0px;
+    }
+    .head-text p{
+        font-size: 20px;
+        color:white ;
+        margin-top: 10px;
+    }
+   
+    .package-product{
+        margin: 0;
+        padding: 20px 20px;
+    }
+    .package-product h2{
+        opacity: 0.7;
+       font-size: 16px;
+       margin: 0;
+       padding: 20px 0;
+       color: blue;
+       text-decoration: underline;
+    }
+    
 }

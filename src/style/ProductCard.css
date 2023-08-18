@@ -38,3 +38,18 @@ img{
     margin-left:170px;
     
 }
+@media screen and (max-width: 768px){
+.productCard{
+    width: 300px;
+    margin: 10px;
+}
+.name{
+    height: 20px;
+    font-size: 18px;
+    opacity: 1;
+}
+
+.description button{
+   margin-top: 15px;
+}
+}

@@ -1,9 +1,12 @@
 import React from 'react'
+import nothingImg from '../../assestes/nothing.jpg'
+import '../News/News.css'
 
 const News = () => {
   return (
-    <div style={{fontSize:'20px',margin:'100px 200px', height:'70vh'}}>
-      we are sorry, we have no New News to show . please Wait for update
+    <div className='news'>
+      <img src={nothingImg} alt=''/>
+     <h2> We are sorry, We have't new news to show . Please wait for update</h2>
     </div>
   )
 }
