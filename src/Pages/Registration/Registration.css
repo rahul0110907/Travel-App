@@ -17,6 +17,12 @@
     justify-content: center;
     align-items: center;
   }
+  .login h3{
+    display: flex;
+    font-size: 26px;
+    justify-content: center;
+    align-items: center;
+  }
   
   form label, form input {
     display: block;
