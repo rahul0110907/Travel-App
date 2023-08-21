@@ -11,6 +11,8 @@ import Contact from '../src/Pages/Contact/Contact.jsx'
 import Navbar from '../src/components/Navbar.jsx'
 
 import Footer from './components/Footer';
+import Regestration from './Pages/Registration/Regestration';
+import Login from './Pages/Login/Login';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
         <Route path='/BookNow' element={<BookNow/>}/>
         <Route path='/News' element={<News/>}/>
         <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/Regestration' element={<Regestration/>}/>
+        <Route path='/Login' element={<Login/>}/>
         </Routes>
        
         <Footer/>

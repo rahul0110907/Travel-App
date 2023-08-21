@@ -40,6 +40,31 @@ background-clip: none;
     color: red;
 }
 
+.signin{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.signin:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.signpara{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+.logout{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+border: transparent;
+}
+.logout:hover{
+    border: 1px solid black;
+    cursor: pointer; 
+}
 
 .book{
     display: block;
@@ -67,6 +92,36 @@ background-clip: none;
         background-color:black
 
        }
+       .signin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        }
+        .signin:hover{
+            border: 1px solid black;
+            cursor: pointer;
+        }
+        .signpara{
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px; 
+        }
+        .logout{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border: transparent;
+        margin-right: 50px;
+        }
+        .logout p{
+            display: none;
+        }
+        .logout:hover{
+            border: 1px solid black;
+            cursor: pointer; 
+        }
   
     .mobile-menu a{
         color: white;
