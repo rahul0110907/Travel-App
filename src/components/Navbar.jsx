@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../style/Navbar.css';
 import logo from '../assestes/images.png'
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import LogoutIcon from "@mui/icons-material/Logout";
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
@@ -12,6 +12,7 @@ import { userSignOut } from '../store/Slice';
 const Navbar = () => {
   const auth = getAuth();
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const userInfo = useSelector((state) => state.Travel.userInfo);
   const [isActive, setIsActive] = useState(false);
   const toggleActiveClass = () => {
@@ -105,9 +106,15 @@ isActive &&(
           }
          
         </div>
-        <div className='book'>
-                <Link to='/BookNow'><button>Book Now</button></Link>
-                 </div>
+        {
+          userInfo?(
+            <div className='book'>
+            <Link to='/BookNow'><button>Book Now</button></Link>
+             </div>
+          ):(
+            navigate("/Login")
+          )
+        }
     
     </nav>
    
